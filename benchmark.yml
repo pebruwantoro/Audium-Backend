@@ -1,0 +1,37 @@
+concurrency: 200
+base: 'http://localhost:7070'
+iterations: 200
+rampup: 2
+
+plan:
+  - name: Fetch Audio Background Files
+    request:
+      url: /backgroundsound/a4.wav
+      method: GET
+    with_items:
+      - { file: "a1.wav" }
+      - { file: "a2.wav" }
+      - { file: "a3.wav" }
+      - { file: "a4.wav" }
+    shuffle: true
+    pick: 1
+
+  - name: Fetch Audio Files
+    request:
+      url: /audio/audio1.wav
+      method: GET
+    with_items:
+      - { file: "audio1.wav" }
+      - { file: "audio2.wav" }
+      - { file: "audio3.wav" }
+      - { file: "audio4.wav" }
+      - { file: "audio5.wav" }
+      - { file: "audio6.wav" }
+      - { file: "audio7.wav" }
+      - { file: "audio8.wav" }
+      - { file: "audio9.wav" }
+      - { file: "audio10.wav" }
+      - { file: "audio11.wav" }
+      - { file: "audio12.wav" }
+    shuffle: true
+    pick: 1

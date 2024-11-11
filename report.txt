@@ -1,0 +1,31 @@
+Fetch Audio Background Files Total requests            200
+Fetch Audio Background Files Successful requests       200
+Fetch Audio Background Files Failed requests           0
+Fetch Audio Background Files Median time per request   70ms
+Fetch Audio Background Files Average time per request  566ms
+Fetch Audio Background Files Sample standard deviation 868ms
+Fetch Audio Background Files 99.0'th percentile        3047ms
+Fetch Audio Background Files 99.5'th percentile        3047ms
+Fetch Audio Background Files 99.9'th percentile        3047ms
+
+Fetch Audio Files         Total requests            200
+Fetch Audio Files         Successful requests       200
+Fetch Audio Files         Failed requests           0
+Fetch Audio Files         Median time per request   23ms
+Fetch Audio Files         Average time per request  135ms
+Fetch Audio Files         Sample standard deviation 296ms
+Fetch Audio Files         99.0'th percentile        1016ms
+Fetch Audio Files         99.5'th percentile        1016ms
+Fetch Audio Files         99.9'th percentile        1020ms
+
+Time taken for tests      4.1 seconds
+Total requests            400
+Successful requests       400
+Failed requests           0
+Requests per second       98.41 [#/sec]
+Median time per request   42ms
+Average time per request  351ms
+Sample standard deviation 683ms
+99.0'th percentile        3047ms
+99.5'th percentile        3047ms
+99.9'th percentile        3047ms
